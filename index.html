@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Physik-Prüfung – Sehr schwer</title>
+  <style>
+    body { font-family: sans-serif; margin: 30px; }
+    textarea { width: 100%; height: 60px; margin-bottom: 10px; }
+    button { margin: 5px; }
+    .section { border: 1px solid #aaa; padding: 15px; margin-bottom: 25px; border-radius: 8px; }
+    .section h3 { margin-top: 0; }
+  </style>
+  <script>
+function showSolution1() { alert("E = 3 kW · 0,5 h = 1,5 kWh = 1,5 · 3.600.000 = 5.400.000 J"); }
+function showSolution2() { alert("E = 360 · 3.600.000 = 1.296.000.000 J"); }
+function showSolution3() { alert("E_zu = E_ab / η = 260 / 0,65 = 400 J"); }
+function showSolution4() { alert("E = 1,8 kW · 0,75 h = 1,35 kWh → Kosten = 1,35 · 0,35 = 0,4725 €"); }
+function showSolution5() { alert("R = U² / P = 230² / 100 = 52900 / 100 = 529 Ω"); }
+</script>
+</head>
+<body>
+<h1>Physik-Prüfung – Sehr schwer</h1>
+
+<div class="section">
+  <h3>Aufgabe 1</h3>
+  <p>Eine Maschine verbraucht 3 kW Leistung über eine halbe Stunde. Berechne den Energieverbrauch in kWh und J.</p>
+  <label>Gegeben:</label><br><textarea></textarea><br>
+  <label>Gefragt:</label><br><textarea></textarea><br>
+  <label>Benötigte Formel(n):</label><br><textarea></textarea><br>
+  <label>Antwort:</label><br><textarea></textarea><br>
+  <button onclick="showSolution1()">Lösung prüfen</button>
+</div>
+
+<div class="section">
+  <h3>Aufgabe 2</h3>
+  <p>Eine Stromrechnung zeigt einen Verbrauch von 360 kWh. Wie viel Joule sind das?</p>
+  <label>Gegeben:</label><br><textarea></textarea><br>
+  <label>Gefragt:</label><br><textarea></textarea><br>
+  <label>Benötigte Formel(n):</label><br><textarea></textarea><br>
+  <label>Antwort:</label><br><textarea></textarea><br>
+  <button onclick="showSolution2()">Lösung prüfen</button>
+</div>
+
+<div class="section">
+  <h3>Aufgabe 3</h3>
+  <p>Ein Gerät hat einen Wirkungsgrad von 65 % und gibt 260 J ab. Berechne die zugeführte Energie.</p>
+  <label>Gegeben:</label><br><textarea></textarea><br>
+  <label>Gefragt:</label><br><textarea></textarea><br>
+  <label>Benötigte Formel(n):</label><br><textarea></textarea><br>
+  <label>Antwort:</label><br><textarea></textarea><br>
+  <button onclick="showSolution3()">Lösung prüfen</button>
+</div>
+
+<div class="section">
+  <h3>Aufgabe 4</h3>
+  <p>Ein Heizlüfter mit 1800 W läuft 45 Minuten. Berechne die Energiekosten bei 0,35 €/kWh.</p>
+  <label>Gegeben:</label><br><textarea></textarea><br>
+  <label>Gefragt:</label><br><textarea></textarea><br>
+  <label>Benötigte Formel(n):</label><br><textarea></textarea><br>
+  <label>Antwort:</label><br><textarea></textarea><br>
+  <button onclick="showSolution4()">Lösung prüfen</button>
+</div>
+
+<div class="section">
+  <h3>Aufgabe 5</h3>
+  <p>Stelle die Formel P = U² / R nach R um und berechne R bei P = 100 W und U = 230 V.</p>
+  <label>Gegeben:</label><br><textarea></textarea><br>
+  <label>Gefragt:</label><br><textarea></textarea><br>
+  <label>Benötigte Formel(n):</label><br><textarea></textarea><br>
+  <label>Antwort:</label><br><textarea></textarea><br>
+  <button onclick="showSolution5()">Lösung prüfen</button>
+</div>
+</body>
+</html>
